@@ -20,6 +20,7 @@ input, button, textarea, select { font: inherit }
 
 
 h1 {color: blue;
+    font-family: 'Bitter', serif;
     font-size: 84px;
     text-align: center;
     font-weight: normal;
@@ -28,18 +29,20 @@ h1 {color: blue;
 }
 
 h2 {color: blue;
+    font-family: 'Bitter', serif;
     font-size: 36px;
     margin-bottom: 4px;
 }
 
 h3 {color: blue;
+    font-family: 'Bitter', serif;
     font-size: 24px;
     margin-bottom: 4px;  
 }
 
 p { color: darkslateblue;
-    font-size: 18px;
-    font-family: sans-serif;
+    font-size: 20px;
+    font-family: 'Bitter', serif;
     line-height: 1.6;
     margin-bottom: 20px;
 }
