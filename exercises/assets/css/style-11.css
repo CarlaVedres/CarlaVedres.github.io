@@ -15,29 +15,26 @@ input, button, textarea, select { font: inherit }
 /* ============== HEADERS AND SECTIONS ============ */
 
 /* Default header and widths */
-
 header, section { width: 100% }
 
 /* Last element at bottom of header or section */
 header *:last-child, section *:last-child { margin-bottom: 0 }
-
 /* =================== HEADER ================ */
 
 /* Regular and larger screens */
-
 @media (min-width: 1200px) { 
 	header { 
 		margin-left: auto;
 		margin-right: auto;
 		padding: 1% 0 3% 0; 
 		padding-left: calc( (100% - 1140px)/2 );
-		padding-right: calc( (100% - 1140px)/2 );}
-
-		.header-narrow {
-			padding-left: calc( (100% - 920px)/2 );
-			padding-right: calc( (100% - 920px)/2 );
-		}
-	
+		padding-right: calc( (100% - 1140px)/2 );
+	}
+}
+.header-narrow {
+	padding-left: calc( (100% - 920px)/2 );
+	padding-right: calc( (100% - 920px)/2 );
+}
 
 
 /* Tablets and smaller desktops */
@@ -61,15 +58,16 @@ header *:last-child, section *:last-child { margin-bottom: 0 }
 }
 
 /* Image in header */
-
-	header img {
-	   max-width: 800px;
-	   margin-left: auto;
-	   margin-right: auto;
-	   margin-bottom: 24px;
-	}
-    
-
+header img {
+    margin-bottom: 24px;
+}
+/* Image in header */
+header img {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+}
 
 /* Main heading in header */
 header h1 {
@@ -97,13 +95,13 @@ header h2 {
 		margin-right: auto;
 		padding: 3.5% 0 4% 0; 
 		padding-left: calc( (100% - 1140px)/2 );
-		padding-right: calc( (100% - 1140px)/2 );}
-
-		.section-narrow {
-			padding-left: calc( (100% - 920px)/2 );
-			padding-right: calc( (100% - 920px)/2 );
-		}
-	
+		padding-right: calc( (100% - 1140px)/2 );
+	}
+}
+.section-narrow {
+	padding-left: calc( (100% - 920px)/2 );
+	padding-right: calc( (100% - 920px)/2 );
+}
 
 /* Tablets and smaller desktops */
 @media (min-width: 1025px) and (max-width: 1199px ) { 
@@ -144,11 +142,10 @@ section p {
     line-height: 1.5;
 }
 /* Coloured backgrounds */
-.bg-hero-block { background-color: #f5f9fb }
-.bg-pastel-1   { background-color: #BEC7B4 }
-.bg-pastel-2   { background-color: #DEE2D9 }
+.bg-header   { background-color: #f5f9fb }
+.bg-pastel-1 { background-color: #BEC7B4 }
+.bg-pastel-2 { background-color: #DEE2D9 }
 
-
- /*=======================UTILITY CLASSES ======================== ?*/
+/*=============== UTILTY CLASSES ==============*/
 
 .text-center { text-align: center !important }
